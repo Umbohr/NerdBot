@@ -1,8 +1,6 @@
 const cron = require('cron');
 
 //START BOT
-
-require('discord-reply');
 const { Client, Events, GatewayIntentBits, Collection  } = require('discord.js');
 const path = require('path');
 require('dotenv').config();
